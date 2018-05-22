@@ -1,0 +1,17 @@
+{
+  "name": "color-organizer-graphql",
+  "version": "1.0.0",
+  "description": "Color Organizer with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon . -e graphql,js"
+  },
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^3.0.0",
+    "graphql-yoga": "^1.14.1",
+    "is-color": "^1.0.1",
+    "nodemon": "^1.17.4"
+  }
+}
